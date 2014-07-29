@@ -4,9 +4,12 @@ Fire-SMSTrigger
 Applicaiton files for georpocessing near real time fire data. 
 
 This application glues together several components
-####a) FrontlineSMS http triggers
-####b) Esri Arcpy for geoprocessing point events on the server
-####c) .Net application (C#) to manage the logic of taking http triggers and processing events.
+
++ FrontlineSMS http triggers
+
++ Esri Arcpy for geoprocessing point events on the server
+
++ .Net application (C#) to manage the logic of taking http triggers and processing events.
 
 
 This was created in 2012 as a sample application and could probably use some updates. 
@@ -16,19 +19,19 @@ Assumes you have a database of Fire locations (or some other point database) in 
 
 The outline is as follows:
 ==========================
-####a.    Scheduled Python job pulls latest data from the FTP from “/allData/1/MOD14T/Recent/,/allData/1/MYD14T/Recent/",
++ a.    Scheduled Python job pulls latest data from the FTP from “/allData/1/MOD14T/Recent/,/allData/1/MYD14T/Recent/",
 
-####b.	As part of this the associate semi-structured MET file is also downloaded and parsed
++ b.	As part of this the associate semi-structured MET file is also downloaded and parsed
 
-####c.	The job pulls any files it is missing based on comparing filenames in the database table to filenames in the FTP server for the last 90 days (or other defined time period). 
++ c.	The job pulls any files it is missing based on comparing filenames in the database table to filenames in the FTP server for the last 90 days (or other defined time period). 
 
-####d.	If no new data is available the job stops here. 
++ d.	If no new data is available the job stops here. 
 
-####e.	The txt data is converted to a shapefile based on the latitude and longitude field and geoprocessed against the GAUL0,1,2 Admin boundaries to obtain a locational attribute
++ e.	The txt data is converted to a shapefile based on the latitude and longitude field and geoprocessed against the GAUL0,1,2 Admin boundaries to obtain a locational attribute
 
-####f.	The Fire table is appended with the new data
++ f.	The Fire table is appended with the new data
 
-####g.	The map services refresh 
++ g.	The map services refresh 
 
 Accessing Services
 ==================
@@ -72,4 +75,3 @@ function epochToDateString(epochSeconds) {
 	return _time;
 }
 ```
-
