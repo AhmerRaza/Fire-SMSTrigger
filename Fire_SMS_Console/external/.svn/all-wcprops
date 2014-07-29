@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external
+END
+Simple.Providers.PostGreSQL.dll
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Simple.Providers.PostGreSQL.dll
+END
+Npgsql.XML
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Npgsql.XML
+END
+Mono.Security.dll.refresh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Mono.Security.dll.refresh
+END
+NauckIT.PostgreSQLProvider.dll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/NauckIT.PostgreSQLProvider.dll
+END
+Newtonsoft.Json.dll.refresh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Newtonsoft.Json.dll.refresh
+END
+Mono.Security.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Mono.Security.dll
+END
+Newtonsoft.Json.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Newtonsoft.Json.dll
+END
+Npgsql.dll.refresh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Npgsql.dll.refresh
+END
+Newtonsoft.Json.XML
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Newtonsoft.Json.XML
+END
+Npgsql.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/source/nasafire/!svn/ver/2/trunk/Fire_SMS_Console/external/Npgsql.dll
+END
